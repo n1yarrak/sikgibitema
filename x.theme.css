@@ -3367,3 +3367,11 @@ code.hljs.makefile:before {
 .subtitle-1H8FPn {
 	margin-top:2px;
 }
+
+/* nitro tab */
+
+/* nitro tab, library */
+
+.premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A {
+    background-color: var(--chat);
+}
