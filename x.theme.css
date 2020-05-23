@@ -3373,3 +3373,75 @@ code.hljs.makefile:before {
 .premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp {
     background-color: var(--chat);
 }
+
+/*tarih*/
+.datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z {
+	background: var(--chat) !important;
+	box-shadow:0 2px 8px rgba(0, 0, 0, .25);
+	padding:4px 6px;
+	line-height:12px;
+	border-radius:2px;
+	cursor:default;
+	transition:150ms ease box-shadow;
+}
+
+.datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover {
+	box-shadow:0 2px 12px rgba(0, 0, 0, .25), inset 0 0 0 1px var(--blurple);
+}
+
+.react-datepicker__day--selected:after,
+.react-datepicker__day:hover {
+	background: var(--chat) !important;
+}
+
+.channelSeparator-1X1FuH .channelName-1QajIf,
+.react-datepicker,
+.react-datepicker__header,
+.searchResult-3pzFAB .hit-NLlWXA {
+	background:transparent !important;
+}
+
+.react-datepicker__day {
+	border-color: transparent !important;
+	background: rgba(0, 0, 0, .5) !important;
+	transition: 150ms ease all !important;
+}
+
+.calendarPicker-2yf6Ci .react-datepicker__day-name,
+.calendarPicker-2yf6Ci .react-datepicker__day,
+.react-datepicker__day,
+.searchResult-3pzFAB .hit-NLlWXA,
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__current-month,
+.datePicker--XZbmJ .datePickerHint-3Q1Udw .hint-165cR4 {
+	text-transform:none;
+}
+
+.calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--next,
+.calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--previous,
+#app-mount .datePicker--XZbmJ .datePickerHint-3Q1Udw,
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__current-month,
+.searchResult-3pzFAB .hit-NLlWXA {
+
+}
+
+/*search res*/
+
+.channelName-wvgELL {
+    background-color: var(--chat);
+}
+
+.searchResultMessage-30QnSN {
+    background-color: transparent;
+}
+
+.searchResult-2N9RV4:after, .searchResult-2N9RV4:before {
+    width: 0;
+}
+
+.searchResult-2N9RV4 .messageGroupCozy-2Bj3ME {
+    background-color: var(--chat) !important;
+}
+
+.premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I {
+    background-color: var(--chat);
+}
