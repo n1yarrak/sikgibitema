@@ -1364,7 +1364,7 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 
 .theme-dark .input-2VB9rf {
     background: var(--chat);
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 0px 0px 5px var(--blurple);
 }
 
 .theme-dark .input-2VB9rf:hover {
@@ -3442,6 +3442,6 @@ code.hljs.makefile:before {
     background-color: var(--chat) !important;
 }
 
-.premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I {
-    background-color: var(--chat);
+.premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I, .quickswitcher-3JagVE, .scroller-zPkAnE, .scroller-3BxosC, .header-ykumBX, .emptyPlaceholder-1zh-Eu, .messagesPopout-24nkyi, .footer-1kmXd4, .input-1Rv96N, .friend-3KALPe {
+    background-color: var(--chat) !important;
 }
