@@ -2075,7 +2075,7 @@ code.hljs.makefile:before {
     pointer-events: none;
 }
 
-.form-2fGMdU:before {
+.theme-dark .form-2fGMdU:before {
     content: "";
     position: absolute;
     top: 0;
