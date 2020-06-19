@@ -3509,7 +3509,6 @@ code.hljs.makefile:before {
 /*medya grid*/
 .grid-1nZz7S {
 	background-color: var(--chat) !important;
-	text-shadow: 0 0 6px var(--blurple);
 }
 
 .premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I, .quickswitcher-3JagVE, .scroller-zPkAnE, .scroller-3BxosC, .header-ykumBX, .emptyPlaceholder-1zh-Eu, .messagesPopout-24nkyi, .footer-1kmXd4, .input-1Rv96N, .friend-3KALPe {
