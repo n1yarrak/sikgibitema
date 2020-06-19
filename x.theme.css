@@ -2089,7 +2089,7 @@ code.hljs.makefile:before {
 /*basmalýprofil*/
 
 .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
-    background-color: var(--chat);
+    background-color: var(--chat) !important;
 }
 
 .theme-dark .headerNormal-T_seeN {
@@ -3447,6 +3447,69 @@ code.hljs.makefile:before {
 .progressBar-3u8FBM, .animating-3Qqqzp {
 	background:var(--spotify-green) !important;
 	box-shadow:0 0 12px var(--spotify-green) !important;
+}
+
+/* davet */
+
+.wrapper-35wsBm {
+    background: rgba(0, 0, 0, .3);
+    box-shadow:0 0 2px var(--blurple);
+}
+
+.statusOnline-8PnF5L {
+	background:var(--spotify-green) !important;
+	box-shadow:0 0 4px var(--spotify-green) !important;
+}
+
+.statusOffline-37RKt7 {
+	background: #747f8d;
+	box-shadow:0 0 4px #747f8d !important;
+}
+
+.lookFilled-1Gx00P {
+	box-shadow:0 0 12px var(--blurple);
+}
+
+.guildName-2hvnt_ {
+	text-shadow:0 0 6px var(--blurple);
+}
+
+.header-2BTCnc {
+	animation: davet 3s ease infinite;
+    	-moz-animation: davet 3s ease infinite;
+    	-webkit-animation: davet 3s ease infinite;
+}
+
+@keyframes davet {
+  0%,
+  100% {
+    color: var(--interactive-normal);
+  }
+  50% {
+    color: var(--blurple);
+  }
+}
+
+/* gelen kutusu*/
+.thin-1ybCId, .thin-1ybCId.fade-2kXiP2:hover, .channelHeader-3Gd2xq, .messages-3G3erD, .messageContainer-gbhlwo, .theme-dark .header-2-Imhb .tabBar-1kuXvJ {
+	background-color: var(--chat) !important;
+}
+ 
+.button-1-5Aqk {
+	background-color: var(--chat);
+	color: var(--blurple);
+	box-shadow: 0 0 1px var(--blurple);
+}
+
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
+	background-color: var(--chat) !important;
+	text-shadow: 0 0 6px var(--blurple);
+}
+
+/*medya grid*/
+.grid-1nZz7S {
+	background-color: var(--chat) !important;
+	text-shadow: 0 0 6px var(--blurple);
 }
 
 .premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I, .quickswitcher-3JagVE, .scroller-zPkAnE, .scroller-3BxosC, .header-ykumBX, .emptyPlaceholder-1zh-Eu, .messagesPopout-24nkyi, .footer-1kmXd4, .input-1Rv96N, .friend-3KALPe {
