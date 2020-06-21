@@ -1261,7 +1261,7 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 	animation: 2s pavyon6 3s ease infinite;
 	-moz-animation: pavyon6 3s ease infinite;
     	-webkit-animation: pavyon6 3s ease infinite;
-	text-shadow: 0 0 5px;
+	text-shadow: 0 0 6px var(--blurple);
 }
 
 @keyframes pavyon6 {
@@ -1928,7 +1928,7 @@ code.hljs.makefile:before {
 }
 
 .container-1r6BKw {
-	text-shadow: 0 0 4px;
+	text-shadow: 0 0 6px var(--blurple);
 }
 
 /* chatsol */
@@ -2114,51 +2114,21 @@ code.hljs.makefile:before {
 }
 
 /* emoji box */
-.wrapper-2aW0bm {
+.contentWrapper-SvZHNd, .header-ywPcAE, .scrollerThemed-2oenus, .inspector-3LQtX9, .unicodeShortcut-15J8Ck {
     background-color: var(--chat);
-    -webkit-box-shadow: var(--elevation-stroke);
-    box-shadow: var(--elevation-stroke);
-    display: grid;
-    grid-auto-flow: column;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 32px;
-    border-radius: 2px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    overflow: hidden;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-transition: -webkit-box-shadow .1s ease-out;
-    transition: -webkit-box-shadow .1s ease-out;
-    transition: box-shadow .1s ease-out;
-    transition: box-shadow .1s ease-out,-webkit-box-shadow .1s ease-out;
 }
 
-.button-1ZiXG9 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    height: 24px;
-    padding: 4px;
-    min-width: 24px;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    color: var(--blurple);
-    cursor: pointer;
+.categoryItemDefaultCategorySelected-_HCKoz, .categoryItemDefaultCategorySelected-_HCKoz:hover, .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+	background-color: var(--solalt);
+}
+
+.navButtonActive-1MkytQ {
+	background-color: var(--chat);
+	text-shadow: 0 0 6px var(--blurple) !important;
+}
+
+.input-3Xdcic {
+	background-color: var(--chat);
 }
 
 /* ayarlar sol */
