@@ -2114,7 +2114,7 @@ code.hljs.makefile:before {
 }
 
 /* emoji box */
-.contentWrapper-SvZHNd, .header-ywPcAE, .scrollerThemed-2oenus, .inspector-3LQtX9, .unicodeShortcut-15J8Ck {
+.contentWrapper-SvZHNd, .header-ywPcAE, .scrollerThemed-2oenus, .inspector-3LQtX9, .unicodeShortcut-15J8Ck, .wrapper-2aW0bm {
     background-color: var(--chat);
 }
 
@@ -2129,6 +2129,26 @@ code.hljs.makefile:before {
 
 .input-3Xdcic {
 	background-color: var(--chat);
+}
+
+.button-1ZiXG9 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 24px;
+    padding: 4px;
+    min-width: 24px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    color: var(--blurple);
+    cursor: pointer;
 }
 
 /* ayarlar sol */
