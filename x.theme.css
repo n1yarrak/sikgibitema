@@ -3511,6 +3511,16 @@ code.hljs.makefile:before {
 	background-color: var(--chat) !important;
 }
 
+/*sunucudanayrıl*/
+
+.footer-2gL1pp {
+	background-color: var(--chat) !important;
+}
+
+.colorRed-1TFJan {
+	box-shadow: 0 0 12px #f04747;
+}
+
 .premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I, .quickswitcher-3JagVE, .scroller-zPkAnE, .scroller-3BxosC, .header-ykumBX, .emptyPlaceholder-1zh-Eu, .messagesPopout-24nkyi, .footer-1kmXd4, .input-1Rv96N, .friend-3KALPe {
     background-color: var(--chat) !important;
 }
