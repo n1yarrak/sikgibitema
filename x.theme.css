@@ -3515,6 +3515,20 @@ code.hljs.makefile:before {
 	box-shadow: 0 0 12px #f04747;
 }
 
+/* server boost */
+
+.perksModalContentWrapper-2HU6uL {
+	background-color: var(--chat);
+}
+
+.base-1x0h_U, .guildSubscriptionInfoSubscriberCount-sQQL0_ {
+	text-shadow: 0 0 3px var(--blurple);
+}
+
+.theme-dark .perk-2WeBWW, .theme-dark .tierBody-16Chc9, .theme-dark .ctaBar-2UsjF2 {
+	background-color: var(--solalt);
+}
+
 .premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I, .quickswitcher-3JagVE, .scroller-zPkAnE, .scroller-3BxosC, .header-ykumBX, .emptyPlaceholder-1zh-Eu, .messagesPopout-24nkyi, .footer-1kmXd4, .input-1Rv96N, .friend-3KALPe {
     background-color: var(--chat) !important;
 }
