@@ -1979,6 +1979,10 @@ code.hljs.makefile:before {
 
 /*gruplar*/
 
+.platform-win .scroller-2TZvBN {
+    padding-right: 99px !important;
+}
+
 .scroller-2TZvBN {
     -webkit-user-select: none;
     -moz-user-select: none;
