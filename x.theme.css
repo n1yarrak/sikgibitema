@@ -3523,7 +3523,11 @@ code.hljs.makefile:before {
 .theme-dark .perk-2WeBWW, .theme-dark .tierBody-16Chc9, .theme-dark .ctaBar-2UsjF2 {
 	background-color: var(--solalt);
 }
+/**/
+.searchResult-9tQ1uo:after, .searchResult-9tQ1uo:before {
+	width: 0;
+}
 
-.premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I, .quickswitcher-3JagVE, .scroller-zPkAnE, .scroller-3BxosC, .header-ykumBX, .emptyPlaceholder-1zh-Eu, .messagesPopout-24nkyi, .footer-1kmXd4, .input-1Rv96N, .friend-3KALPe {
+.premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I, .quickswitcher-3JagVE, .scroller-zPkAnE, .scroller-3BxosC, .header-ykumBX, .emptyPlaceholder-1zh-Eu, .messagesPopout-24nkyi, .footer-1kmXd4, .input-1Rv96N, .friend-3KALPe, .attachment-33OFj0, .channelName-1JRO3C, .hit-1fVM9e, .searchResult-9tQ1uo  {
     background-color: var(--chat) !important;
 }
