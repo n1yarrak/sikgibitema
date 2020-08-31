@@ -94,7 +94,7 @@
 
 .activity-11LB_k:after,.activity-11LB_k:before,.headerPlaying-j0WQBV .activity-11LB_k:after,.headerPlaying-j0WQBV .activity-11LB_k:before {
 	background: hsla(0,0%,100%,.2);
-	transform: rotate(45deg);
+	transform: rotate(40deg);
 	animation-duration: 4.3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
@@ -3530,4 +3530,14 @@ code.hljs.makefile:before {
 
 .premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I, .quickswitcher-3JagVE, .scroller-zPkAnE, .scroller-3BxosC, .header-ykumBX, .emptyPlaceholder-1zh-Eu, .messagesPopout-24nkyi, .footer-1kmXd4, .input-1Rv96N, .friend-3KALPe, .attachment-33OFj0, .channelName-1JRO3C, .hit-1fVM9e, .searchResult-9tQ1uo  {
     background-color: var(--chat) !important;
+}
+
+/* sunucu oluştur */
+
+.circleIconButton-jET_ig {
+    background-color: var(--chat);
+}
+
+.circleIconButton-jET_ig.selected-ugP_am {
+    background-color: var(--innerchat);
 }
