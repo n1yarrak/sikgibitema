@@ -2349,12 +2349,13 @@ code.hljs.makefile:before {
 /* server ppleri */
 
 .animatedContainer-1pJv5C {
-	-webkit-mask: linear-gradient(black 30%, transparent);
-	margin-top: 40px
+	-webkit-mask: linear-gradient(black 80%, transparent);
+	margin-top: 10px
 }
 
 .bannerImage-1jOskm {
 	width: 100%;
+	margin-top: 20px
 }
 
 /* hesap detaylarý */
