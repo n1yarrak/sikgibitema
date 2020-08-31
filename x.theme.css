@@ -2348,13 +2348,17 @@ code.hljs.makefile:before {
 */
 /* server ppleri */
 
+.thin-1ybCId {
+	margin-top: 40px
+}
+
 .animatedContainer-1pJv5C {
-	-webkit-mask: linear-gradient(black 50%, transparent);
+	-webkit-mask: linear-gradient(black 30%, transparent);
+	margin-top: 40px
 }
 
 .bannerImage-1jOskm {
 	width: 100%;
-	margin-top: 40px
 }
 
 /* hesap detaylarý */
@@ -3480,7 +3484,7 @@ code.hljs.makefile:before {
 }
 
 /* gelen kutusu*/
-.thin-1ybCId, .thin-1ybCId.fade-2kXiP2:hover, .channelHeader-3Gd2xq, .messages-3G3erD, .messageContainer-gbhlwo, .theme-dark .header-2-Imhb .tabBar-1kuXvJ {
+.channelHeader-3Gd2xq, .messages-3G3erD, .messageContainer-gbhlwo, .theme-dark .header-2-Imhb .tabBar-1kuXvJ {
 	background-color: var(--chat) !important;
 }
  
