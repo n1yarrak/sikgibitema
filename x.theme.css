@@ -89,7 +89,11 @@
 }
 
 .body-3iLsc4,.footer-1fjuF6 {
-	background-color: #17171c!important
+	background-color: var(--chat) !important
+}
+
+.textarea-2r0oV8:focus {
+	background-color: var(--solalt) !important
 }
 
 .activity-11LB_k:after,.activity-11LB_k:before,.headerPlaying-j0WQBV .activity-11LB_k:after,.headerPlaying-j0WQBV .activity-11LB_k:before {
@@ -2450,7 +2454,7 @@ code.hljs.makefile:before {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 40px;
+	height: 50px;
 	text-shadow: 0 0 7px;
 }
 
