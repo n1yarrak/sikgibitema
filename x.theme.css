@@ -3546,3 +3546,9 @@ code.hljs.makefile:before {
 .circleIconButton-jET_ig.selected-ugP_am {
     background-color: var(--innerchat);
 }
+
+/* doğrulama tiki */
+
+.verified-1eC5dy {
+    color: var(--blurple);
+}
