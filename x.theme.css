@@ -3547,8 +3547,34 @@ code.hljs.makefile:before {
     background-color: var(--innerchat);
 }
 
+
 /* doğrulama tiki */
 
 .verified-1eC5dy {
     color: var(--blurple);
+}
+
+/* keşif */
+
+.sidebar-2K8pFh {
+    background: var(--chat);
+}
+
+.theme-dark .card-3DjzTQ, .theme-dark .iconMask-3b8GzQ {
+    background-color: var(--solalt);
+}
+
+.theme-dark .card-3DjzTQ:hover {
+    background-color: var(--chat);
+}
+
+/* kitaplık */
+
+.scroller-1IIF0A, .header-39GIC8 {
+    background-color: var(--chat);
+}
+
+.textCell-1aBIUP {
+    text-color: #ffffff;
+    text-shadow: 0 0 12px;
 }
