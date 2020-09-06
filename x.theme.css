@@ -3578,3 +3578,10 @@ code.hljs.makefile:before {
     text-color: #ffffff;
     text-shadow: 0 0 12px;
 }
+
+/* bilmiyom */
+
+.wrapper-3vR61M, .wrapper-1F5TKx {
+    background-color: var(--chat);
+}
+
