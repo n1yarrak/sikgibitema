@@ -3097,7 +3097,7 @@ code.hljs.makefile:before {
   box-shadow: none !important;
   border-radius: 4px;
 }
-
+/*
 .avatar-1BDn8e[src*="357830986181902337"] + h2::after {
   background-image: url(https://i.ibb.co/G2r1SWx/owner.png);
   transform: scale(1);
@@ -3108,7 +3108,7 @@ code.hljs.makefile:before {
 .avatar-1BDn8e[src*="357830986181902337"]:hover + h2::after {
   content: 'Lord';
   background-image: url(https://66.media.tumblr.com/aa9a91f8443a61cc795fa66ac82fe415/tumblr_o3922jiHTQ1rpoo8ro1_r1_400.gif);
-}
+}*/
 
 
 :root {
