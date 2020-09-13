@@ -3547,6 +3547,28 @@ code.hljs.makefile:before {
     background-color: var(--innerchat);
 }
 
+.title-3w8xhj, .subtitle-Nw1LLR, .optionHeader-1-5lcp, .footerTitle-2CYZch {
+    color: var(--blurple);
+}
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+    color: var(--blurple);
+    background-color: var(--solalt);
+}
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+    color: var(--blurple);
+    background-color: var(--innerchat);
+}
+
+.itemContainer-1LSFks {
+    background-color: var(--solalt);
+}
+
+.itemText-sYKDFz {
+    color: var(--blurple);
+}
+
 
 /* doğrulama tiki */
 
