@@ -3166,7 +3166,7 @@ code.hljs.makefile:before {
 #app-mount .messagesPopoutWrap-1MQ1bW .avatar-1BDn8e+ h2::after{
   display: none !important;
 }
-
+/*
 .avatar-1BDn8e[src*="357830986181902337"] + h2::after{
   content: "}";
 }
@@ -3185,7 +3185,7 @@ code.hljs.makefile:before {
     background: var(--solalt);
     z-index: 2;
 }
-
+*/
 .reduce-motion .userPopout-3XzG_A {
 	transform:translateZ(0);
 }
