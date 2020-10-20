@@ -171,6 +171,10 @@
 	width: 20%
 }
 
+.theme-dark .children-19S4PO:after {
+	opacity:0;
+}
+
 @keyframes shine2 {
 	81.82% {
 		left: -100%
