@@ -2172,8 +2172,7 @@ code.hljs.makefile:before {
 
 /* ayarlar profil */
 
-.userSettingsAccount-2eMFVR .userInfoEditing-1CEzdT,
-.userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 {
+.cardPrimary-1Hv-to {
     background: var(--chat);
 }
 
