@@ -530,8 +530,8 @@ textarea:not([class*="hljs"]):not(code) {
 }
 
 .contentRegionScroller-26nc1e .lookOutlined-3sRXeN.colorRed-1TFJan:hover {
-    color: var(--hover);
-    border-color: var(--hover);
+    color: var(--danger);
+    border-color: var(--danger);
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
@@ -3529,6 +3529,10 @@ code.hljs.makefile:before {
 
 .colorRed-1TFJan {
 	box-shadow: 0 0 12px #f04747;
+}
+
+.colorRed-1TFJan:hover {
+	box-shadow: 0 0 12px var(--danger);
 }
 
 /* server boost */
