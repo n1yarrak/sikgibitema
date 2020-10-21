@@ -524,11 +524,6 @@ textarea:not([class*="hljs"]):not(code) {
     background: var(--chat);
 }
 
-.contentRegionScroller-26nc1e .lookOutlined-3sRXeN.colorRed-1TFJan {
-    color: var(--blurple);
-    border-color: var(--blurple);
-}
-
 .contentRegionScroller-26nc1e .lookOutlined-3sRXeN.colorRed-1TFJan:hover {
     color: var(--danger);
     border-color: var(--danger);
