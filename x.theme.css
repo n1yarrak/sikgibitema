@@ -2638,7 +2638,7 @@ code.hljs.makefile:before {
 	border-radius:0;
 }
 
-/* user sað týk */
+/* user sağ tık */
 
 @keyframes contextMenu {
 	0% {
@@ -2649,33 +2649,35 @@ code.hljs.makefile:before {
 	}
 }
 
-.itemBase-tz5SeC.danger-2dXSTE,
+.itemBase-tz5SeC.colorDanger-2qLCe1,
 .item-1GzJrl.leave-1DRJfn {
 	color:var(--danger);
 }
 
-.itemBase-tz5SeC.danger-2dXSTE:hover,
+.colorDanger-2qLCe1:hover,
 .item-1GzJrl.leave-1DRJfn:hover {
 	border-color:var(--danger) !important;
 	box-shadow: inset 15px 0 15px -15px var(--danger) !important;
 }
 
 .container-3cGP6G,
-.contextMenu-HLZMGh {
+.contextMenu-HLZMGh,
+.menu-3sdvDG {
 	padding:0;
 	border-radius: 0 !important;
 	background: var(--chat) !important;
 	box-shadow:inset 0 0 0 100vmax rgba(255, 255, 255, .06), 0 2px 12px var(--lv1) !important;
-	animation: contextMenu .2s cubic-bezier(0, 0, 0, 1);
+	animation: contextMenu .1s cubic-bezier(0, 0, 0, 1);
 	transform-origin: left;
 }
 
-.contextMenu-HLZMGh .item-1Yvehc,
+.contextMenu-HLZMGh,
 .item-2J1YMK,
 .itemSlider-FZeYw0,
 .itemSubMenu-1vN_Yn,
+.item-1tOPte,
 .wrapper-35dUTv {
-	transition: 150ms ease all;
+	transition: 100ms ease all;
 	padding: 7px 15px !important;
 	border-left: 2px solid var(--blurple);
 }
@@ -2691,6 +2693,7 @@ code.hljs.makefile:before {
 .contextMenu-HLZMGh .item-1Yvehc:hover,
 .item-2J1YMK:hover,
 .itemSlider-FZeYw0:hover,
+.item-1tOPte:hover,
 .itemSubMenu-1vN_Yn.selected-BYpGTS,
 .contextMenu-HLZMGh .item-1Yvehc.selected {
 	background-color: rgba(255, 255, 255, .06) !important;
@@ -2698,11 +2701,11 @@ code.hljs.makefile:before {
 	box-shadow: inset 15px 0 15px -15px var(--blurple);
 }
 
-/* aramadayken bölge seçim kýsmý */
+/* aramadayken bölge seçim kısmı */
 
 .quickSelectPopoutOption-opKBx9 {
 	margin: 0 !important;
-	transition: 150ms ease all;
+	/*transition: 100ms ease all;*/
 	padding: 7px 15px !important;
 	border-left: 1px solid var(--blurple);
 }
