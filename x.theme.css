@@ -2667,7 +2667,7 @@ code.hljs.makefile:before {
 	border-radius: 0 !important;
 	background: var(--chat) !important;
 	box-shadow:inset 0 0 0 100vmax rgba(255, 255, 255, .06), 0 2px 12px var(--lv1) !important;
-	animation: contextMenu .1s cubic-bezier(0, 0, 0, 1);
+	animation: contextMenu 0.5s cubic-bezier(0, 0, 0, 1);
 	transform-origin: left;
 }
 
@@ -2677,7 +2677,7 @@ code.hljs.makefile:before {
 .itemSubMenu-1vN_Yn,
 .item-1tOPte,
 .wrapper-35dUTv {
-	transition: 100ms ease all;
+	transition: 70ms ease all;
 	padding: 7px 15px !important;
 	border-left: 2px solid var(--blurple);
 }
