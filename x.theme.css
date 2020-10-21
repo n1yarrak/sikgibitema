@@ -98,7 +98,7 @@
 
 .activity-11LB_k:after,.activity-11LB_k:before,.headerPlaying-j0WQBV .activity-11LB_k:after,.headerPlaying-j0WQBV .activity-11LB_k:before {
 	background: hsla(0,0%,100%,.2);
-	transform: rotate(31deg);
+	transform: rotate(40deg);
 	animation-duration: 4.3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
@@ -522,6 +522,11 @@ textarea:not([class*="hljs"]):not(code) {
 
 .contentRegionScroller-26nc1e {
     background: var(--chat);
+}
+
+.contentRegionScroller-26nc1e .lookOutlined-3sRXeN.colorRed-1TFJan {
+    color: var(--blurple);
+    border-color: var(--blurple);
 }
 
 .contentRegionScroller-26nc1e .lookOutlined-3sRXeN.colorRed-1TFJan:hover {
@@ -2662,7 +2667,7 @@ code.hljs.makefile:before {
 	border-radius: 0 !important;
 	background: var(--chat) !important;
 	box-shadow:inset 0 0 0 100vmax rgba(255, 255, 255, .06), 0 2px 12px var(--lv1) !important;
-	animation: contextMenu 0.2s cubic-bezier(0, 0, 0, 1);
+	animation: contextMenu .1s cubic-bezier(0, 0, 0, 1);
 	transform-origin: left;
 }
 
@@ -2672,8 +2677,8 @@ code.hljs.makefile:before {
 .itemSubMenu-1vN_Yn,
 .item-1tOPte,
 .wrapper-35dUTv {
-	/*transition: 70ms ease all;*/
-	padding: 7px 15px !important;
+	/*transition: 100ms ease all;*/
+	padding: 0px 10px !important;
 	border-left: 2px solid var(--blurple);
 }
 
@@ -3548,7 +3553,7 @@ code.hljs.makefile:before {
 	width: 0;
 }
 
-.premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I, .quickswitcher-3JagVE, .scroller-zPkAnE, .scroller-3BxosC, .header-ykumBX, .emptyPlaceholder-1zh-Eu, .messagesPopout-24nkyi, .footer-1kmXd4, .input-1Rv96N, .friend-3KALPe, .attachment-33OFj0, .channelName-1JRO3C, .hit-1fVM9e, .searchResult-9tQ1uo, .wrapper-1-Fsb8, .header-2bNvm4, .autocompleteScroller-iInVqR, .theme-dark .message-2qRu38  {
+.premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I, .quickswitcher-3JagVE, .scroller-zPkAnE, .scroller-3BxosC, .header-ykumBX, .emptyPlaceholder-1zh-Eu, .messagesPopout-24nkyi, .footer-1kmXd4, .input-1Rv96N, .friend-3KALPe, .attachment-33OFj0, .channelName-1JRO3C, .hit-1fVM9e, .searchResult-9tQ1uo, .wrapper-1-Fsb8, .header-2bNvm4, .autocompleteScroller-iInVqR  {
     background-color: var(--chat) !important;
 }
 
