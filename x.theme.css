@@ -3703,3 +3703,35 @@ code.hljs.makefile:before {
 .css-3vaxre-menu {
     background-color: var(--chat);
 }
+
+/* şablon */
+
+.descriptionBox-1EKQKL {
+    background-color: var(--chat);
+}
+
+/* sunucuda gözüken emojiler */
+
+.theme-dark .card-FDVird:before, .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+    background-color: var(--chat);
+}
+
+/* keşif */
+
+.container-2w0lh0, .header-2Y0-A- {
+    background-color: var(--chat);
+}
+
+/* hoşgeldin ekranı */
+
+.enableContainer-6E-puu, .previewContainer-1SS3uO {
+    background-color: var(--chat);
+}
+
+.descriptionInput-3b30C8[placeholder] {
+    background-color: var(--innerchat);
+}
+
+.welcomeChannel-1rFrIO {
+    background-color: var(--solalt);
+}
