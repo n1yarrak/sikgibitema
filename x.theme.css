@@ -2196,11 +2196,11 @@ code.hljs.makefile:before {
 @keyframes pavyon4 {
   0%,
   100% {
-    box-shadow: 0 0 12px;
+    box-shadow: 0 0 0.6px;
     border-color: #dedede;
   }
   50% {
-    box-shadow: 0 0 12px;
+    box-shadow: 0 0 0.6px;
     border-color: var(--blurple);
   }
 }
@@ -3626,6 +3626,12 @@ code.hljs.makefile:before {
     background-color: var(--chat);
 }
 
+/* bilmiyom */
+
+.wrapper-3vR61M, .wrapper-1F5TKx {
+    background-color: var(--chat);
+}
+
 /* bağlantılar */
 
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
@@ -3634,4 +3640,66 @@ code.hljs.makefile:before {
 
 .connectionHeader-2MDqhu, .accountList-33MS45, .connectionOptionsWrapper-3KIj1Z {
     background-color: var(--solalt);
+}
+
+/* boost */
+
+.guildHeader-3nh5RK {
+    background-color: var(--solalt);
+}
+
+.guildSubscriptionSlots-JPXXvN {
+    background-color: var(--solalt);
+}
+
+.card-3AyPWq {
+    background-color: var(--solalt);
+}
+
+.card-3AyPWq:hover {
+    background-color: var(--innerchat);
+}
+
+/* ödeme */
+
+.billingInformation-1MZXzx, .detailsBlock-FoDTGA:last-child, .optionLabel-2CkCZx {
+    background-color: var(--solalt);
+}
+
+.optionLabel-2CkCZx:hover {
+    background-color: var(--solalt);
+}
+
+.bannerBackgroundImage-1DMjWi, .theme-dark .feature-2w65J5 {
+    background-color: var(--solalt);
+}
+
+/* hype */
+
+.membershipDialog-rVL-t_:after {
+    background-color: var(--solalt);
+}
+
+/* ödeme */
+
+.paymentRowHeader-2sfDdN, .theme-dark .bottomDivider-1K9Gao, .pageActions-1SVAnA, .theme-dark .codeRedemptionRedirect-1wVR4b {
+    background-color: var(--chat);
+}
+
+.theme-dark .bottomDivider-1K9Gao:hover {
+    background-color: var(--solalt);
+}
+
+.theme-dark .expandedInfo-3kfShd {
+    background-color: var(--solalt);
+}
+
+/* ayarlar/ses */
+
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+    background-color: var(--solalt);
+}
+
+.css-3vaxre-menu {
+    background-color: var(--chat);
 }
