@@ -3694,6 +3694,10 @@ code.hljs.makefile:before {
     background-color: var(--solalt);
 }
 
+.billingInformation-1MZXzx {
+    color: var(--text-normal); !important
+}
+
 /* ayarlar/ses */
 
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
