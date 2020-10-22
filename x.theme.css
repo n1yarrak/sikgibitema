@@ -3548,8 +3548,8 @@ code.hljs.makefile:before {
 	width: 0;
 }
 
-.premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I, .quickswitcher-3JagVE, .scroller-zPkAnE, .scroller-3BxosC, .header-ykumBX, .emptyPlaceholder-1zh-Eu, .messagesPopout-24nkyi, .footer-1kmXd4, .input-1Rv96N, .friend-3KALPe, .attachment-33OFj0, .channelName-1JRO3C, .hit-1fVM9e, .searchResult-9tQ1uo, .wrapper-1-Fsb8, .header-2bNvm4, .autocompleteScroller-iInVqR, .theme-dark .message-2qRu38  {
-    background-color: var(--chat) !important;
+.premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp, .searchResultsWrap-3-pOjs, .scroller-305q3I, .quickswitcher-3JagVE, .scroller-zPkAnE, .scroller-3BxosC, .header-ykumBX, .emptyPlaceholder-1zh-Eu, .messagesPopout-24nkyi, .footer-1kmXd4, .input-1Rv96N, .friend-3KALPe, .attachment-33OFj0, .channelName-1JRO3C, .hit-1fVM9e, .searchResult-9tQ1uo, .wrapper-1-Fsb8, .header-2bNvm4, .autocompleteScroller-iInVqR, .theme-dark .message-2qRu38, .emptyCard-1RJw8n {    
+	background-color: var(--chat) !important;
 }
 
 /* sunucu oluştur */
