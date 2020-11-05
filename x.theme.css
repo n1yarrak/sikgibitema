@@ -2207,21 +2207,22 @@ code.hljs.makefile:before {
     background-position: center;
 }
 
-
-
 .avatarUploaderInner-3UNxY3 {
     width: 150px;
     height: 150px;
-    margin-right: -320%;
+    margin-right: -652px;
+    display: fixed;
 }
 
 .details-2fkb7l {
-    margin-bottom: -9%;
-    margin-left: 12%;
+    margin-bottom: -58px;
+    margin-left: 240px;
+    display: fixed;
 }
 
 .badgeList-HtCfKd {
     margin-left: 30px;
+    display: fixed;
 }
 
 @keyframes pavyon4 {
