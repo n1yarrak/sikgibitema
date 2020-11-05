@@ -2181,16 +2181,47 @@ code.hljs.makefile:before {
 
 /* ayarlar profil */
 
-.cardPrimary-1Hv-to {
-    background: var(--chat);
+/* ayarlar profil */
+
+.background-1QDuV2 {
+    background: var(--solalt);
+    background-position: center;
+    background: linear-gradient(0deg, var(--solalt) 10%, var(--siyah) 130%);
 }
 
-.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
+/*.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
     border-color: var(--blurple);
     animation: pavyon4 4s ease infinite;
     -moz-animation: pavyon4 2s ease infinite;
     -webkit-animation: pavyon4 2s ease infinite;
     border-shadow: 0 0 12px;
+}
+*/
+
+.fieldList-21DyL8 {
+    background: var(--chat);
+    margin-top: 70px;
+    background-image: url(https://cdn3.iconfinder.com/data/icons/smileys-people-random-add-on/48/v-03-512.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+}
+
+
+
+.avatarUploaderInner-3UNxY3 {
+    width: 150px;
+    height: 150px;
+    margin-right: -320%;
+}
+
+.details-2fkb7l {
+    margin-bottom: -60px;
+    margin-left: 76px;
+}
+
+.badgeList-HtCfKd {
+    margin-left: 30px;
 }
 
 @keyframes pavyon4 {
@@ -2205,11 +2236,11 @@ code.hljs.makefile:before {
   }
 }
 
-.userSettingsAccount-2eMFVR .userInfoViewingButton-2-jbH9 {
+/*.userSettingsAccount-2eMFVR .userInfoViewingButton-2-jbH9 {
     position: absolute;
     top: 20px;
     right: 20px;
-}
+}*/
 
 /* bildirim */
 .unread-3zKkbm {
