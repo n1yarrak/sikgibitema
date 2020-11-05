@@ -2181,8 +2181,6 @@ code.hljs.makefile:before {
 
 /* ayarlar profil */
 
-/* ayarlar profil */
-
 .background-1QDuV2 {
     background: var(--solalt);
     background-position: center;
@@ -2224,7 +2222,7 @@ code.hljs.makefile:before {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-55%, -550%);
+    transform: translate(-56%, -550%);
 }
 
 .badgeList-HtCfKd {
