@@ -2226,7 +2226,10 @@ code.hljs.makefile:before {
 }
 
 .badgeList-HtCfKd {
-    margin-left: 30px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, -4%);
 }
 
 @keyframes pavyon4 {
