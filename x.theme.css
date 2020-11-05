@@ -2229,7 +2229,7 @@ code.hljs.makefile:before {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-35%, -4%);
+    transform: translate(-37%, -4%);
 }
 
 @keyframes pavyon4 {
