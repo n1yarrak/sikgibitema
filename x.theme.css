@@ -2200,7 +2200,7 @@ code.hljs.makefile:before {
 
 .fieldList-21DyL8 {
     background: var(--chat);
-    margin-top: 70px;
+    margin-top: 65px;
     background-image: url(https://cdn3.iconfinder.com/data/icons/smileys-people-random-add-on/48/v-03-512.png);
     background-repeat: no-repeat;
     background-size: 150px;
@@ -2210,19 +2210,25 @@ code.hljs.makefile:before {
 .avatarUploaderInner-3UNxY3 {
     width: 150px;
     height: 150px;
-    margin-right: -652px;
-    display: fixed;
+}
+
+.avatarUploader-3XDtmn {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    transform: translate(-46%, 0%);
 }
 
 .details-2fkb7l {
-    margin-bottom: -58px;
-    margin-left: 240px;
-    display: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -550%);
 }
 
 .badgeList-HtCfKd {
     margin-left: 30px;
-    display: fixed;
 }
 
 @keyframes pavyon4 {
