@@ -3778,3 +3778,9 @@ code.hljs.makefile:before {
 .welcomeChannel-1rFrIO {
     background-color: var(--solalt);
 }
+
+/* klasör */
+
+.expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU-, .closedFolderIconWrapper-15K9MK {
+    background-color: var(--solalt);
+}
