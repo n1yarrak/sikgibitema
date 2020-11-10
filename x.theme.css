@@ -3784,3 +3784,17 @@ code.hljs.makefile:before {
 .expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU-, .closedFolderIconWrapper-15K9MK {
     background-color: var(--solalt);
 }
+
+/* emoji popup */
+
+.emojiSection-3Fb9ix {
+    background-color: var(--solalt);
+}
+
+.guildSection-1EoFKd {
+    background-color: var(--chat);
+}
+
+.base-1x0h_U {
+    text-shadow: 0 0 4px var(--blurple);
+}
