@@ -2403,12 +2403,12 @@ code.hljs.makefile:before {
 */
 /* server ppleri */
 
-.animatedContainer-1pJv5C {
+.animatedContainer-1NSq4T {
 	-webkit-mask: linear-gradient(black 80%, transparent);
 	margin-top: 10px
 }
 
-.bannerImage-1jOskm {
+.bannerImage-3KhIJ6 {
 	width: 100%;
 	margin-top: 20px
 }
@@ -2448,9 +2448,9 @@ code.hljs.makefile:before {
     }
 }
 
-/* eððð server ismi */
+/* eğğğ server ismi */
 
-#app-mount .header-2o-2hj {
+#app-mount .header-2V-4Sw {
 	box-shadow: inset 0 0 0 100vmax var(--chat);
 	height: 48px;
 	box-sizing: border-box;
@@ -2460,12 +2460,24 @@ code.hljs.makefile:before {
         padding: 0 16px;
 }
 
-.header-2o-2hj:hover::before {
+.hasBanner-2SrLR3 .header-2V-4Sw, .hasBanner-2SrLR3 .header-2V-4Sw:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.bannerVisible-14J9lQ .header-2V-4Sw {
+    color: #fff;
+    -webkit-filter: drop-shadow(0 1px 1px rgba(0,0,0,.8));
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,.8));
+}
+
+.header-2V-4Sw:hover::before {
 	opacity: .25;
 	transform: scale(16);
 }
 
-.header-2o-2hj::before {
+.header-2V-4Sw::before {
 	content: '';
 	position: absolute;
 	pointer-events: none;
@@ -2478,6 +2490,7 @@ code.hljs.makefile:before {
 	z-index: -1;
 	opacity: 0;
 	background: var(--siyah);
+        border-bottom: 2px solid var(--blurple);
 	transition: fadeIn .25s ease, transform .5s ease;
 }
 
@@ -2500,7 +2513,7 @@ code.hljs.makefile:before {
 }
 
 
-.header-2o-2hj::after {
+.header-2V-4Sw::after {
 	content: "?:D";
 	display: flex;
 	justify-content: center;
@@ -3803,4 +3816,10 @@ code.hljs.makefile:before {
 
 .container-3JTnYm, .body-Ogsp8i {
     background-color: var(--solalt);
+}
+
+/* random bullshit go */
+
+.container-3w7J-x {
+    background-color: var(--chat);
 }
