@@ -2310,8 +2310,8 @@ code.hljs.makefile:before {
 
 .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n {
 	box-shadow: inset 0 0 0 100vmax var(--solalt);
-	border-radius: 0;
-	transition: 2ms all ease;
+	/*border-radius: 0;*/
+	/*transition: 2ms all ease;*/
 }
 
 .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n:hover::before {
