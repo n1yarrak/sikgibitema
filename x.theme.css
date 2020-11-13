@@ -2306,20 +2306,20 @@ code.hljs.makefile:before {
 
 
 
-/* server kanallarý */
+/* server kanalları */
 
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+.wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n {
 	box-shadow: inset 0 0 0 100vmax var(--solalt);
 	border-radius: 0;
 	transition: 2ms all ease;
 }
 
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:hover::before {
+.wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n:hover::before {
 	opacity: .25;
 	transform: scale(16);
 }
 
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::before {
+.wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n::before {
 	content: '';
 	position: absolute;
 	transform: scale(0);
@@ -3814,7 +3814,7 @@ code.hljs.makefile:before {
 
 /* ses/yayın */
 
-.container-3JTnYm, .body-Ogsp8i {
+.container-2dqNWc, .body-Ogsp8i {
     background-color: var(--solalt);
 }
 
