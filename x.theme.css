@@ -22,6 +22,7 @@ https://github.com/goodname69/blurple-theme/blob/master/Blurpler.css
     --innerchat: #1c1b1c;
     --solalt: #0d0b0d;
     --siyah: #000000;
+    --aciksiyah: #080508;
     --yazi: 'AAAAAAAA';
     --danger: #e20b0b;
     --spotify-green:#1DB954;
@@ -3750,14 +3751,27 @@ code.hljs.makefile:before {
     color: var(--text-normal); !important
 }
 
-/* ayarlar/ses */
+/* ses/yayın */
 
-.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+.container-2dqNWc, .body-Ogsp8i {
     background-color: var(--solalt);
 }
 
-.css-3vaxre-menu {
-    background-color: var(--chat);
+.wrapper-2tAnRe {
+    color: var(--blurple);
+    text-shadow: 0 0 3px var(--blurple);
+}
+
+.total-i6us2n {
+    background-color: var(--aciksiyah);
+}
+
+.users-3kndPl {
+    background-color: var(--solalt);
+}
+
+.total-i6us2n:after {
+    border-right-color: var(--aciksiyah);
 }
 
 /* şablon */
