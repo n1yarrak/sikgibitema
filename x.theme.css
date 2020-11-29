@@ -2127,11 +2127,11 @@ code.hljs.makefile:before {
 }
 
 /* emoji box */
-.contentWrapper-SvZHNd, .header-ywPcAE, .scrollerThemed-2oenus, .inspector-3LQtX9, .unicodeShortcut-15J8Ck, .wrapper-2aW0bm {
+.contentWrapper-SvZHNd, .header-ywPcAE, .scrollerThemed-2oenus, .inspector-3LQtX9, .unicodeShortcut-15J8Ck, .categorySection-2sgp74, .bodyWrapper-3G0FZZ, .header-8ilj5e {
     background-color: var(--chat);
 }
 
-.categoryItemDefaultCategorySelected-_HCKoz, .categoryItemDefaultCategorySelected-_HCKoz:hover, .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+.categoryItemDefaultCategorySelected-_HCKoz, .categoryItemDefaultCategorySelected-_HCKoz:hover, .emojiItem-14v6tW.emojiItemSelected-1aLkfV, .wrapper-2aW0bm, .premiumRetentionNotice-1MsjHe {
 	background-color: var(--solalt);
 }
 
