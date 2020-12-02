@@ -2245,10 +2245,9 @@ code.hljs.makefile:before {
 }*/
 
 .details-2fkb7l {
-    position: fixed;
-    top: 35%;
-    left: 50%;
-    margin: auto;
+    position: relative;
+    top: 105px;
+    left: 66px;
 }
 
 .badgeList-HtCfKd {
