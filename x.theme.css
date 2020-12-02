@@ -2219,7 +2219,7 @@ code.hljs.makefile:before {
     transform: translate(-46%, 0%);
 }
 
-.details-2fkb7l {
+/*.details-2fkb7l {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2231,6 +2231,17 @@ code.hljs.makefile:before {
     top: 50%;
     left: 50%;
     transform: translate(-37%, -4%);
+}*/
+
+.details-2fkb7l {
+    position: absolute;
+    top: 22%;
+    left: 37%;
+}
+
+.badgeList-HtCfKd {
+    position: relative;
+    margin: auto;
 }
 
 @keyframes pavyon4 {
