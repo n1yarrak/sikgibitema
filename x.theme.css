@@ -2246,8 +2246,8 @@ code.hljs.makefile:before {
 
 .details-2fkb7l {
     position: relative;
-    top: 105px;
-    left: 66px;
+    left: 50%;
+    transform: translate(-142%, 225%);
 }
 
 .badgeList-HtCfKd {
