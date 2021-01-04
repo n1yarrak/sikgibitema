@@ -2764,6 +2764,10 @@ code.hljs.makefile:before {
 	border-left: 2px solid var(--blurple);
 }
 
+.scroller-3BxosC {
+   padding: 3px 0px;
+}
+
 .wrapper-35dUTv {
 	padding:0 !important;
 }
