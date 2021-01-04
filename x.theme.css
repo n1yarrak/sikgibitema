@@ -953,8 +953,7 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 }*/
 
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
-    background: var(--channel);
-    border-left: 3px solid var(--blurple);
+    background: var(--solalt);
     border-radius: 0px;
     transition: .3s;
 }
@@ -1606,7 +1605,10 @@ path[d*="M5 13h14v-2H5v2zm-2 4h14v-2H3v2zM7 7v2h14V7H7z"] {
 }
 
 .root-SR8cQa {
-    width: 850px;
+    /*width: 850px;*/
+    width:calc(850px + 120vh - 1024px);
+    background-color: var(--chat);
+    position: relative;
 }
 
 [style*='/icons/153708594091655168/'] {
@@ -3858,4 +3860,17 @@ code.hljs.makefile:before {
 
 .container-3w7J-x {
     background-color: var(--chat);
+}
+
+/* yanıtla */
+
+.container-2fRDfG {
+   background-color: var(--innerchat);
+   border-radius: 8px;
+}
+
+/* seçim */
+
+.radioBar-bMNUI-, .item-26Dhrx {
+    background-color: var(--solalt);
 }
