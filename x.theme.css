@@ -1605,9 +1605,9 @@ path[d*="M5 13h14v-2H5v2zm-2 4h14v-2H3v2zM7 7v2h14V7H7z"] {
 }
 
 .root-SR8cQa {
-    /*width: 850px;*/
-    width:calc(850px + 120vh - 1024px);
-    height:calc(114vw - 1024px);
+    width: 850px;
+    /*width:calc(850px + 120vh - 1024px);*/
+    height:calc(100vw - 820px);
     background-color: var(--chat);
     position: relative;
 }
