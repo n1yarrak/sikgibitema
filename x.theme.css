@@ -1148,9 +1148,9 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
     background: var(--transparent);
 }
 
-.theme-dark .searchHeader-1l-wpR {
-    background: var(--transparent);
-    box-shadow: 1px 1px 10px black;
+.theme-dark .searchHeader-2XoQg7 {
+    background: var(--solalt);
+    box-shadow: 1px 1px 5px black;
 }
 
 .theme-dark .searchResult-3pzFAB .hit-NLlWXA {
@@ -2978,8 +2978,8 @@ code.hljs.makefile:before {
     background-color: var(--chat);
 }
 
-.theme-dark .selectorSelected-1_M1WV {
-    background-color: var(--solalt);
+.theme-dark .selectorSelected-1_M1WV, .selected-1Tbx07 {
+    background-color: var(--solalt) !important;
 }
 
 /* upload */
@@ -3883,4 +3883,9 @@ code.hljs.makefile:before {
 
 .radioBar-bMNUI-, .item-26Dhrx {
     background-color: var(--solalt);
+}
+
+/* rolle ilgili */
+.container-3XJ8ns {
+    background-color: var(--chat);
 }
