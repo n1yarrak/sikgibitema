@@ -3372,58 +3372,51 @@ code.hljs.makefile:before {
 
 /* arama */
 
-.incomingCall-14zLcL {
+/* arama */
+
+.theme-dark .elevationHigh-3A9Xbf {
 	box-shadow:none !important;
-	border-radius:0;
+	width:150% !important;
+	background-image: url('https://64.media.tumblr.com/93a8cadf064dab1b46c7b56c0ca33fb3/tumblr_pj8i5mD4IR1s4fz4bo1_500.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
-.actionButtons-3P85gM {
-	display:flex;
-}
-
-.incomingCallInner-2VmFiR {
+.actionButton-3CLkPB.last-3WKR_s, .actionButton-3CLkPB {
 	border-radius:0;
 	box-shadow:0 0 12px rgba(0,0,0,0.5);
 	border:none;
-	background:transparent;
-	padding:20px !important;
-	padding-top:10px !important;
+	background: transparent !important;
+	padding:15px !important;
+	padding-top:15px !important;
 }
 
-.full-motion .incomingCallInner-2VmFiR {
-	backdrop-filter:blur(25px);
-	width:127%;
+.actionButton-3CLkPB.last-3WKR_s:hover {
+	background: #43b581 !important;
 }
 
-.incomingCallInner-2VmFiR::after {
-	content:'';
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	position:absolute;
-	z-index:-2;
-	background:var(--solalt);
-	opacity:.75;
+.actionButton-3CLkPB:hover {
+	background: #f04747 !important;
 }
 
-.incomingCall-14zLcL::before {
+.actionButton-3CLkPB.last-3WKR_s::after {
 	content:'';
 	bottom:0;
 	left:0;
-	width:71%;
+	width:100%;
 	height:2px;
 	position:absolute;
-	background:var(--spotify-green);
-	box-shadow:0 0 12px var(--spotify-green);
+	background:var(--spotify-green) !important;
+	box-shadow:0 0 12px var(--spotify-green) !important;
 	z-index:1;
 }
 
-.incomingCall-14zLcL::after {
+.actionButton-3CLkPB::after {
 	content:'';
 	bottom:0;
-	left:72%;
-	width:73%;
+	/*left:72%;*/
+	width:100%;
 	height:2px;
 	position:absolute;
 	background:var(--danger);
@@ -3439,32 +3432,13 @@ code.hljs.makefile:before {
 	border-radius:0;
 }
 
-.incomingCall-14zLcL .incomingCallInner-2VmFiR .button-38aScr .actionIcon--D_WrW {
-	display:none;
-}
-
-.incomingCall-14zLcL .incomingCallInner-2VmFiR .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
-	background:var(--danger);
-}
-
-.incomingCall-14zLcL .callAvatarWrapper-3Ax_xH,
-.incomingCall-14zLcL .callAvatarMask-1SLlRi {
-	height:75px !important;
-	width:75px !important;
-}
-
-.callAvatarMask-1SLlRi foreignObject {
-	mask:none;
+.border-Jn5IOt {
+	border-radius: 0;
 }
 
 .members-2BNiuX {
 	margin-top:4px;
 }
-
-.subtitle-1H8FPn {
-	margin-top:2px;
-}
-
 /* nitro tab, library/settings */
 
 .premiumContainer-2Iux5m, .emptyStateLarge-1nQX5A, .scroller-9moviB, .scroller-2XE8rp {
