@@ -2463,7 +2463,7 @@ code.hljs.makefile:before {
 [class^=homeIcon] {
 	background-color: #fff !important;
 	-webkit-mask: url('https://cdn3.iconfinder.com/data/icons/smileys-people-random-add-on/48/v-03-512.png');
-	-webkit-mask-size: 50px;
+	-webkit-mask-size: 45px;
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center;
 	height: 100%;
