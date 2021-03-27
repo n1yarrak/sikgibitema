@@ -421,7 +421,7 @@ textarea:not([class*="hljs"]):not(code) {
     -moz-box-shadow: none !important;
     box-shadow: none !important;
     border: none !important;
-    width: 5px !important;
+    width: 0px !important;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -2006,8 +2006,12 @@ code.hljs.makefile:before {
 
 /*gruplar*/
 
-.platform-win .scroller-2TZvBN {
+.platform-win .scroller-1Bvpku {
     padding-right: 99px !important;
+}
+
+.none-2Eo-qx {
+	background: var(--chat);
 }
 
 .scroller-2TZvBN {
@@ -2456,15 +2460,15 @@ code.hljs.makefile:before {
 	line-height:40px;
 }
 
-.homeIcon-tEMBK1 {
+[class^=homeIcon] {
 	background-color: #fff !important;
 	-webkit-mask: url('https://cdn3.iconfinder.com/data/icons/smileys-people-random-add-on/48/v-03-512.png');
-	-webkit-mask-size: 35px;
+	-webkit-mask-size: 50px;
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center;
 	height: 100%;
 	width: 100%;
-	animation: homebutton 3s ease alternate infinite;
+	animation: homebutton 2s ease alternate infinite;
     	background-size: 300% 300%;
 }
 
