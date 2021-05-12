@@ -2690,20 +2690,36 @@ code.hljs.makefile:before {
 
 /* eðð emoji */
 
-.reactionMe-wv5HKu {
+[class*="reaction-"][class*="reactionMe-"] {
 	background: transparent !important;
 }
 
-/* ses tuþlarý */
-.video-1FfuMD,
-#app-mount .wrapper-29NfPK {
-	background-color:var(--chat);
+[class*="reaction-"] {
+    /*background: var(--innerchat);*/
+    background: transparent !important;
+    border-radius:.25rem;
+    border-color:var(--siyah);
+    border:none;
+    margin:0 .125rem .125rem 0;
+    -webkit-transition:var(--solalt) .1s ease;
+    transition:var(--solalt) .1s ease;
+    padding:0;
 }
-
-.container-1r6BKw.transparent-2ZlE3R {
-	background-color: var(--chat);
+[class*="reaction-"]:hover, [class*="reaction-"]:active {
+    background-color:transparent;
 }
-
+[class*="reaction-"] [class*="reactionInner-"] {
+    padding:0 .375rem;
+}
+[class*="reaction-"] [class*="reactionCount-"]:not(#foo) {
+    color:var(--blurple);
+}
+[class*="reaction-"]:hover [class*="reactionCount-"]:not(#foo) {
+    color:var(--interactive-hover);
+}
+[class*="reaction-"][class*="reactionMe-"] [class*="reactionCount-"]:not(#foo), [class*="reaction-"][class*="reactionMe-"]:hover [class*="reactionCount-"]:not(#foo) {
+    color:var(--blurple);
+}
 /*
 
  pavyon yapýo bura
