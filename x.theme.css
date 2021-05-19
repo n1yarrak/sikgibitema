@@ -3837,7 +3837,7 @@ code.hljs.makefile:before {
 
 /* klasör */
 
-.expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU-, .closedFolderIconWrapper-15K9MK {
+.expandedFolderBackground-1cujaW, .expandedFolderIconWrapper-Huv7rA, .closedFolderIconWrapper-2sTcE6 {
     background-color: var(--solalt);
 }
 
@@ -3896,4 +3896,8 @@ code.hljs.makefile:before {
 .wrapper-3WhCwL:hover,.mentioned-xhSam7 .mention:hover{
   color:#fff !important;
   background-color:#7289da !important;
+}
+/**/
+.scroller-2ZPeAD {
+    background-color: var(--chat);
 }
