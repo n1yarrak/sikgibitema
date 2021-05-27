@@ -2958,7 +2958,7 @@ code.hljs.makefile:before {
 
 /* büyük avatar fln */
 
-.headerTop-3C2Zn0 {
+/*.headerTop-3C2Zn0 {
     min-height: 250px !important;
     padding: 0 !important;
 }
@@ -2990,7 +2990,64 @@ code.hljs.makefile:before {
     width: 80px !important;
     height: 3px !important;
     mask: none !important;
+}*/
+
+.avatar-22FtUu > svg > foreignObject {
+    mask: none;
 }
+.avatar-22FtUu {
+    width: 300px !important;
+    height: 300px !important;
+    border: none;
+}
+.avatarPositionNormal-1CZUPk {
+    top: 0px;
+}
+.avatarWrapper-1-5NA0 {
+    border-radius: 0;
+    left: 0;
+}
+.avatarHint-1E3LMl {
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+}
+.avatarHint-1E3LMl > foreignObject {
+    mask: none;
+}
+.avatarWrapper-1-5NA0 .pointerEvents-2zdfdO {
+    width: 80px;
+    height: 2px;
+    x: 0;
+    y: 100%;
+    mask: none;
+    pointer-events: none;
+}
+.avatarWrapper-1-5NA0 .mask-1l8v16 {
+    overflow: visible;
+}
+.headerTop-2y3V6H {
+    margin-top: 275px;
+}
+
+.avatarHintInner-2kMTo4 {
+    font-size: 0.4em !important;
+    text-shadow: 1px 1px 3px black !important;
+}
+
+.headerTagNoNickname-3ak9o8 {
+    margin-top: -65px;
+}
+
+.headerTag-nSOkYt {
+    font-size: 1.08em;
+}
+
+/*profile banner without image*/
+.profileBanner-33-uE1{visibility: hidden;}
+/*profile banner with image*/
+.profileBannerPremium-35utuo{visibility: hidden;}
 
 /* : ile baþlarken emoji çýkmasý */
 
