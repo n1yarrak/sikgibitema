@@ -2992,7 +2992,7 @@ code.hljs.makefile:before {
     mask: none !important;
 }*/
 
-.avatar-22FtUu > svg > foreignObject {
+/*.avatar-22FtUu > svg > foreignObject {
     mask: none;
 }
 .avatar-22FtUu {
@@ -3042,7 +3042,7 @@ code.hljs.makefile:before {
 
 .headerTag-nSOkYt {
     font-size: 1.08em;
-}
+}*/
 
 /*profile banner without image*/
 .profileBanner-33-uE1{visibility: hidden;}
