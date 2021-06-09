@@ -3141,6 +3141,63 @@ code.hljs.makefile:before {
 
 /* hesap detaylarý */
 
+.header-4zuFdR .avatar-AvHqJA::before {
+	content: '';
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:var(--user-background) center/cover no-repeat;
+	z-index:-1;
+	box-sizing:border-box;
+	box-shadow:inset 0 0 100vmax var(--chat);
+}
+
+.header-4zuFdR {
+    height: 175px;
+    align-items: flex-end;
+    transform: translateZ(0);
+    position: relative;
+    z-index: 2;
+}
+
+.header-4zuFdR {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.topSectionSpotify-1lI0-P .activityProfile-2bJRaP .button-2IFFQ4:hover {
+	background: var(--chat);
+	box-shadow: 0 0 12px rgba(0,0,0,0.45);
+}
+
+.root-3QyAh1 .root-1gCeng .small-3iVZYw .fullscreenOnMobile-1bD22y {
+    background: var(--chat);
+    border-radius: 0px !important;
+}
+
+.topSection-y3p-_D {
+    background: var(--chat);
+    border-radius: 0px !important;
+}
+
+.body-r6_QPy {
+    background: var(--chat);
+    border-radius: 0px !important;
+}
+
+.small-3iVZYw {
+    border-radius: 0px !important;
+    max-height:600px;
+    width: 800px;
+}
+
 .panels-j1Uci_ .container-3baos1:not(.powercord-spotify) .flex-1O1GKY {
 	width: 250px;
 	justify-content: center;
@@ -3505,7 +3562,8 @@ code.hljs.makefile:before {
 	margin:0 6px;
 	min-width: 120px;
 	min-height:30px;
-	max-height:30px !important;
+	
+	height:30px !important;
 	border-radius:0;
 }
 
@@ -3958,3 +4016,5 @@ code.hljs.makefile:before {
 .scroller-2ZPeAD {
     background-color: var(--chat);
 }
+
+
