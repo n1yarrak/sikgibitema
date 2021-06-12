@@ -3155,7 +3155,6 @@ code.hljs.makefile:before {
 }
 
 .header-4zuFdR {
-    height: 175px;
     align-items: flex-end;
     transform: translateZ(0);
     position: relative;
@@ -3170,6 +3169,43 @@ code.hljs.makefile:before {
     -ms-flex-align: center;
     align-items: center;
     padding: 20px;
+}
+
+.topSectionSpotify-1lI0-P .activityProfile-2bJRaP .button-2IFFQ4:hover {
+	background: var(--chat);
+	box-shadow: 0 0 12px rgba(0,0,0,0.45);
+}
+
+.root-3QyAh1 .root-1gCeng .small-3iVZYw .fullscreenOnMobile-1bD22y {
+    background: var(--chat);
+    border-radius: 0px !important;
+}
+
+.topSection-y3p-_D {
+    background: var(--chat);
+    border-radius: 0px !important;
+}
+
+.body-r6_QPy {
+    background: var(--chat);
+    border-radius: 0px !important;
+}
+
+.root-3QyAh1 {
+    border-radius: 0px !important;
+    overflow: hidden !important;
+    position: relative !important;
+    width: 860px !important;
+}
+
+.avatar-37jOim {
+    border: 6px solid var(--background-floating) !important;
+    background-color: var(--background-floating) !important;
+}
+
+.wrapper-3t9DeA {
+    position: relative !important;
+    border-radius: 50% !important;
 }
 
 .topSectionSpotify-1lI0-P .activityProfile-2bJRaP .button-2IFFQ4:hover {
