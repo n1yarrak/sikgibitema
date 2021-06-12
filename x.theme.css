@@ -3139,9 +3139,68 @@ code.hljs.makefile:before {
     position:absolute;
 }
 
-/* hesap detaylarý */
-
 /* hesap detaylar� */
+
+.root-3QyAh1 {
+    border-radius: 0px !important;
+    overflow: hidden;
+    position: relative;
+    width: 860px;
+}
+
+.panels-j1Uci_ .container-3baos1:not(.powercord-spotify) .flex-1O1GKY {
+	width: 250px;
+	justify-content: center;
+}
+
+.container-3baos1:not(.powercord-spotify) .button-14-BFJ {
+	background: var(--solalt);
+	margin-left: 9px;
+	transition: 150ms ease all;
+	border-radius: 0;
+	opacity: 1 !important;
+	border-bottom: 2px solid var(--blurple);
+	box-sizing:border-box;
+}
+
+.container-3baos1:not(.powercord-spotify) .button-14-BFJ:hover {
+	background: var(--solalt) !important;
+	border-color: var(--blurple);
+	box-shadow: 0 4px 12px -4px var(--blurple);
+}
+
+.container-3baos1:not(.powercord-spotify) .button-14-BFJ:active {
+	border-bottom-color:var(--blurple);
+	box-shadow: none;
+}
+
+.container-3baos1 .button-14-BFJ:active:after {
+	transform: scaleY(1);
+	opacity: 1;
+}
+
+.container-3baos1 .button-14-BFJ:after {
+	content: '';
+	top: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+	position:absolute;
+	background:var(--blurple);
+	box-shadow:0 0 12px var(--blurple);
+	opacity:0;
+	transform:scaleY(0);
+	transition:120ms ease;
+	transform-origin:bottom;
+}
+
+.container-3baos1 .button-14-BFJ:active path {
+	color:#fff !important;
+}
+
+.container-1giJp5 .flex-1O1GKY {
+	width: initial;
+}
 
 .root-3QyAh1 {
   width: 900px;
@@ -3151,7 +3210,6 @@ code.hljs.makefile:before {
 }
 .root-3QyAh1 .topSection-y3p-_D {
   position: relative;
-  background: var(--chat);
   width: 70%;
   z-index: 1;
   border-radius: 0px 0 0 0px;
