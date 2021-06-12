@@ -3244,10 +3244,14 @@ code.hljs.makefile:before {
   margin-top: 16px;
 }
 .root-3QyAh1 .topSection-y3p-_D .relationshipButtons-pUQVkf {
-  position: absolute;
-  /*bottom: 20px;*/
+  /*position: absolute;
+  bottom: 20px;
   top: 160px;
   left: 325px;
+  z-index: 1;*/
+  position: absolute;
+  bottom: 10px;
+  left: 18px;
   z-index: 1;
 }
 
