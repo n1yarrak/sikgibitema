@@ -3141,164 +3141,112 @@ code.hljs.makefile:before {
 
 /* hesap detaylarý */
 
-.header-4zuFdR .avatar-AvHqJA::before {
-	content: '';
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background:var(--user-background) center/cover no-repeat;
-	z-index:-1;
-	box-sizing:border-box;
-	box-shadow:inset 0 0 100vmax var(--chat);
-}
-
-.header-4zuFdR {
-    align-items: flex-end;
-    transform: translateZ(0);
-    position: relative;
-    z-index: 2;
-}
-
-.header-4zuFdR {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.topSectionSpotify-1lI0-P .activityProfile-2bJRaP .button-2IFFQ4:hover {
-	background: var(--chat);
-	box-shadow: 0 0 12px rgba(0,0,0,0.45);
-}
-
-.root-3QyAh1 .root-1gCeng .small-3iVZYw .fullscreenOnMobile-1bD22y {
-    background: var(--chat);
-    border-radius: 0px !important;
-}
-
-.topSection-y3p-_D {
-    background: var(--chat);
-    border-radius: 0px !important;
-}
-
-.body-r6_QPy {
-    background: var(--chat);
-    border-radius: 0px !important;
-}
+/* hesap detaylar� */
 
 .root-3QyAh1 {
-    border-radius: 0px !important;
-    overflow: hidden !important;
-    position: relative !important;
-    width: 860px !important;
+  width: 900px;
+  flex-direction: row;
+  overflow: unset;
+  position: relative;
+}
+.root-3QyAh1 .topSection-y3p-_D {
+  position: relative;
+  background: var(--chat);
+  width: 70%;
+  z-index: 1;
+  border-radius: 0px 0 0 0px;
+}
+.root-3QyAh1 .topSection-y3p-_D .banner-2QYc2d {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
+  border-radius: 0px 0 0 0px;
+}
+.root-3QyAh1 .topSection-y3p-_D .header-4zuFdR {
+  position: static;
+}
+.root-3QyAh1 .topSection-y3p-_D .header-4zuFdR .avatar-AvHqJA {
+  position: relative;
+  top: 16px;
+  border: none;
+  background: none;
+  width: 80px !important;
+  height: 80px !important;
 }
 
-.avatar-37jOim {
-    border: 6px solid var(--background-floating) !important;
-    background-color: var(--background-floating) !important;
+.root-3QyAh1 .topSection-y3p-_D .header-4zuFdR .badgeList-1R1WgZ {
+  position: absolute;
+  top: 60px;
+  left: 115px;
+}
+.root-3QyAh1 .topSection-y3p-_D .nameTag-ECvD8P {
+  position: absolute;
+  /*flex-direction: column;*/
+  align-items: flex-start;
+  top: 13px;
+  left: 100px;
+  max-width: 1000px;
+  margin-top: 16px;
+}
+.root-3QyAh1 .topSection-y3p-_D .relationshipButtons-pUQVkf {
+  position: absolute;
+  /*bottom: 20px;*/
+  top: 160px;
+  left: 325px;
+  z-index: 1;
+}
+
+.root-3QyAh1 .topSection-y3p-_D .profileBadges-9OJ14v {
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+.root-3QyAh1 .topSection-y3p-_D .customStatusActivity-nmH3DF {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  padding: 0;
+}
+.root-3QyAh1 .topSection-y3p-_D .customStatusActivity-nmH3DF.activityProfile-2bJRaP {
+  right: unset;
+  bottom: -140px;
+  left: 5px;
+  width: 750px;
+  padding: 20px;
+}
+.root-3QyAh1 .topSection-y3p-_D .customStatusActivity-nmH3DF .customStatus-2pgT4N {
+  max-width: 130px;
+}
+.root-3QyAh1 .topSection-y3p-_D .customStatusActivity-nmH3DF .assetsLargeImageActivityFeed-25vA7H, :root .root-3QyAh1 .topSection-y3p-_D .customStatusActivity-nmH3DF .assetsLargeImageActivityFeedXbox-3Tr-tf, :root .root-3QyAh1 .topSection-y3p-_D .customStatusActivity-nmH3DF .assetsLargeImageProfile-3YXDex {
+  width: 40px;
+  height: 40px;
+}
+.root-3QyAh1 .topSection-y3p-_D .activityHeader-2shpl0 {
+  display: none;
+}
+.root-3QyAh1 .topSection-y3p-_D .tabBarContainer-37hZsr {
+  position: relative;
+  top: 20px;
+  border-bottom: unset;
+}
+.root-3QyAh1 .topSection-y3p-_D .tabBarContainer-37hZsr .tabBar-3nvOPa {
+  flex-direction: column;
+}
+.root-3QyAh1 .topSection-y3p-_D .tabBarContainer-37hZsr .tabBar-3nvOPa .item-PXvHYJ {
+  height: 40px;
+  border-bottom: unset;
+}
+.root-3QyAh1 .body-r6_QPy {
+  background: var(--chat);
+  width: 60%;
+  min-height: 350px;
+  border-radius: 0 0px 0px 0;
 }
 
 .wrapper-3t9DeA {
     position: relative !important;
     border-radius: 50% !important;
-}
-
-.topSectionSpotify-1lI0-P .activityProfile-2bJRaP .button-2IFFQ4:hover {
-	background: var(--chat);
-	box-shadow: 0 0 12px rgba(0,0,0,0.45);
-}
-
-.root-3QyAh1 .root-1gCeng .small-3iVZYw .fullscreenOnMobile-1bD22y {
-    background: var(--chat);
-    border-radius: 0px !important;
-}
-
-.topSection-y3p-_D {
-    background: var(--chat);
-    border-radius: 0px !important;
-}
-
-.body-r6_QPy {
-    background: var(--chat);
-    border-radius: 0px !important;
-}
-
-.root-3QyAh1 {
-    border-radius: 0px !important;
-    overflow: hidden;
-    position: relative;
-    width: 860px;
-}
-
-.panels-j1Uci_ .container-3baos1:not(.powercord-spotify) .flex-1O1GKY {
-	width: 250px;
-	justify-content: center;
-}
-
-.container-3baos1:not(.powercord-spotify) .button-14-BFJ {
-	background: var(--solalt);
-	margin-left: 9px;
-	transition: 150ms ease all;
-	border-radius: 0;
-	opacity: 1 !important;
-	border-bottom: 2px solid var(--blurple);
-	box-sizing:border-box;
-}
-
-.container-3baos1:not(.powercord-spotify) .button-14-BFJ:hover {
-	background: var(--solalt) !important;
-	border-color: var(--blurple);
-	box-shadow: 0 4px 12px -4px var(--blurple);
-}
-
-.container-3baos1:not(.powercord-spotify) .button-14-BFJ:active {
-	border-bottom-color:var(--blurple);
-	box-shadow: none;
-}
-
-.container-3baos1 .contents-18-Yxp {
-	z-index:1;
-}
-
-.container-3baos1 .button-14-BFJ:active:after {
-	transform: scaleY(1);
-	opacity: 1;
-}
-
-.container-3baos1 .button-14-BFJ:after {
-	content: '';
-	top: 0;
-	left: 0;
-	width:100%;
-	height:100%;
-	position:absolute;
-	background:var(--blurple);
-	box-shadow:0 0 12px var(--blurple);
-	opacity:0;
-	transform:scaleY(0);
-	transition:120ms ease;
-	transform-origin:bottom;
-}
-
-.container-3baos1 .button-14-BFJ:active path {
-	color:#fff !important;
-}
-
-.container-1giJp5 .button-14-BFJ {
-	width: 35px;
-	height:auto;
-	background: transparent !important;
-	border: none;	
-	box-shadow: none !important;
-}
-
-.container-1giJp5 .flex-1O1GKY {
-	width: initial;
 }
 
 /* spoti ve aktivite */
