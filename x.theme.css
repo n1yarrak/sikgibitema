@@ -27,6 +27,7 @@ https://github.com/goodname69/blurple-theme/blob/master/Blurpler.css
     --danger: #e20b0b;
     --spotify-green:#1DB954;
     --background-floating: #0a080a !important;
+    --font-display:var(--font-primary)!important;
 }
 
 /* loader */
